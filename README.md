@@ -13,10 +13,10 @@ docker build -t sinatra .
 Run it !
 
 ```
-ID=$(docker run -p 4567:4567 -d sinatra)
+ID=$(docker run -p 9876:9876 -d sinatra)
 ```
 
-You can access it from your browser, [http://localhost:4567/](http://localhost:4567/).
+You can access it from your browser, [http://localhost:9876/](http://localhost:9876/).
 
 Check logs. 
 
